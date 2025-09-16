@@ -1,0 +1,18 @@
+#navbar{
+    text-align : right;
+    background-color:#19183B;
+    height: 30px;
+    padding-top: 10px;
+
+}
+#navbar a{
+    color: #e7f2ef;
+    text-decoration: none;
+    font-weight: 700;
+    padding-right: 30px;
+    text-align: center;
+}
+#navbar a:hover{
+    background-color: darkgray;
+    color:white;
+}

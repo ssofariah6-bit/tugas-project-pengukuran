@@ -1,55 +1,56 @@
 .container{
     width:100%;
-    height:520px;
+    height:650px;
     margin:auto;
     background-color:#e7f3ef;
     text-align:center;
 }
-.header{
-   padding-bottom: 5px;
-   background-color: #19183B;
-   text-align: right;
+#navbar{
+    text-align : right;
+    background-color:#19183B;
+    height: 30px;
+    padding-top: 10px;
 
 }
-.header .judul{
-    font-size:40px;
-    font-weight:bold;
-}
-.header ul li {
-    display: inline-block;
-    margin-top:20px;
-    margin-right:40px;
-    font-weight:bold;
-}
-.header a{
+#navbar a{
+    color: #e7f2ef;
     text-decoration: none;
-    color:#E7F2EF;
+    font-weight: 700;
+    padding-right: 30px;
+    text-align: center;
 }
-.header a:hover{
+#navbar a:hover{
     background-color: darkgray;
     color:white;
 }
-h3{
-    text-align:center;
-    color:#19183B;
+.about{
+    text-align: justify;
+    margin: 50px 100px;
+}
+h2{
+    text-align: center;
 }
 
-.footer{
-    background-color:#19183B;
-    color:#E7F2EF;
-    text-align:center;
-    font-size:small;
-}
-
-
-input, button{
+input, button, select{
     padding: 10px;
     margin: 5px;
     font-size: 16px;
+}
+
+button{
+    background-color: #708993;
+    color: #19183B;
+    font-weight: 700;
 }
 
 #hasil{
     margin-top: 20px;
     font-weight: bold;
     font-size: 18px;
+}
+.footer{
+    background-color:#19183B;
+    color:#E7F2EF;
+    text-align:center;
+    font-size:small;
 }

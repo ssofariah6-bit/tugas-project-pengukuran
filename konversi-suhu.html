@@ -9,16 +9,30 @@
 </head>
 
 <body>
-    <h2>Konversi untuk Suhu</h2>
-    <input type="number" id="celcius" placeholder="Celcius"><br>
-    <select id="jenisSuhu">
-        <option value="f">Fahrenheit</option>
-        <option value="k">Kelvin</option>
-        <option value="r">Reamur</option>
-    </select><br>
-    <button onclick="konversi()">Konversi</button>
+    <div class="container">
+        <div id="navbar"></div>
+        <script src="navbar.js"></script>
 
-    <div id="hasilSh"></div>
-    <script src="tugas-pengukuran.js"></script>
+        <div class = isi>
+            <h2>Konversi untuk Suhu</h2>
+            <input type="number" id="celcius" placeholder="Celcius"><br>
+            <select id="jenisSuhu">
+                <option value="f">Fahrenheit</option>
+                <option value="k">Kelvin</option>
+                <option value="r">Reamur</option>
+            </select><br>
+            <button onclick="konversi()">Konversi</button>
+
+            <div id="hasilSh"></div>
+            <script src="tugas-pengukuran.js"></script>
+        </div>
+    </div>
+
+    <div class="footer">
+        <footer>
+            <i>© 2025 Sofariah. Semua Hak Cipta Dilindungi.</i>
+        </footer>
+    </div>
+
 </body>
 </html>
